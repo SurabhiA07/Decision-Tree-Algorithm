@@ -2,64 +2,24 @@
 # Created by- Surabhi Awate © 2024
 ## Social Media's--> LinkedIn: @awatesurabhi  | GitHub: @SurabhiA07
 
-
 ## INDEX
-- 
-
+- Aim
+- Description
+- Method used
+- conclusion
+## Aim
+The aim of this analysis is to build and evaluate a Decision Tree classifier model for classifying Iris flower species based on their sepal and petal dimensions.
 ## Description
-- This is a Web Development project for The Sparks Foundation GRIP Internship of April 2023.
-- The website in this project is also Responsive, it means it can run on any browser and also it is mobile/tablet compatible.
-- This project includes 2 main tables 'customer' and 'transaction' which contain their respective details.
-- I also have included all the images used in this project. (you can change them according to your preference)
-
+- Loading Dataset: The analysis begins by loading the dataset containing information about the sepal length, sepal width, petal length, petal width, and species of Iris flowers.
+- Data Preparation: The dataset is then prepared by splitting it into features (sepal length, sepal width, petal length, and petal width) and the target variable (species).
+- Train-Test Split: The dataset is split into training and testing sets to evaluate the model's performance.
+- Model Evaluation: The trained model is evaluated using the testing data. Accuracy score is calculated to measure the model's performance.
 ## Requirements
-- This project can be edited on any IDE, I created it using Visual Studio Code (VS Code)
-- This project was made with the help of HTML, CSS, Bootstrap (5.3), MySQL, PHP.
-- You will also need XAMPP installed on your computer for Apache & MySQL modules.
-- This project can run on any browser. (Chrome preferred)
+- Python environment with necessary libraries installed (pandas, scikit-learn, matplotlib).
+- DecisionTreeClassifier from scikit-learn
+- plot_tree function from scikit-learn.tree
+## Conclusion
+- The Decision Tree classifier achieved an accuracy score, indicating how well it predicts the Iris flower species based on the provided features.
+- The decision tree visualization helps in understanding the decision-making process of the classifier, showing the split criteria at each node based on feature values.
+- Overall, the analysis demonstrates the process of building, evaluating, and visualizing a Decision Tree classifier for the Iris dataset, which can be extended to other classification tasks as well.
 
-## Installation
-- Install XAMPP on your device.
-- Download this project, rename the main folder from `BasicBankingSystem-main` to `BankByShivam`
-- Now place the `BankByShivam` folder in your XAMPP-->htdocs folder
-
-``````````````
-Example:
-C:\xampp\htdocs\BankByShivam
-``````````````
-- Open up the XAMPP Control Panel by searching in the windows search and start the Apache & MySQL modules.
-- Open the phpMyAdmin by entering http://localhost/phpmyadmin/ on the browser.
-- Make a blank database named 'bank' and import any dummy database with 'customer' & 'transactions' tables having 10 values(rows)
-- (*Note*- A dummy database will be also included, so you can use it as oer your preference)
-
-## How_To_Run
-- After successfully importing database in the above step, open a new browser window and type the following:
-``````````````
-http://localhost/BankByShivam/mainpage.php 
-``````````````
-- You will be taken to the Home page of the website from there you can visit `Home` & `Customers` through the Navigation Bar.
-- Else you can scroll down to the `Service` section and check the `customers` or `transaction` history.
-- Or scrolling more down you can read the `About Us` section.
-- On the `Customer` page you can see all the bank's existing customers from the database we imported before.
-- Here you can Choose the sender of the money below and proceed by clicking `Confirm`.
-- On the `Transaction` page you can select whom to transfer the money on `Receiver` tab and the amount to be transferred on `Amount` tab.
-- Click `Send Money` to transfer the money or `Cancel Transaction` to cancel the transaction
-- On the Home page you can visit the `Transaction History` to view past transactions.
-
-## Screenshots
-- Main Page
-![main1.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/c9ff5f66-23e8-4870-a302-1b963b5c0fa7)
-![main2.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/39cb82a6-8c7e-4be9-a5c4-03316d8e772d)
-![main3.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/0341329c-b3e3-47a2-9a9d-af0297734f7a)
-
-- Customer Page
-![customer.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/2a31ac5c-4217-4078-85fe-235689eda632)
-
-- Transaction Page
-![transaction.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/14274c58-7775-477d-8491-df5e7f24eef2)
-
-- On successfull transaction  
-![transaction success.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/5169cbdc-7eaa-41e0-a87f-c98c16376e52)
-
-- Transaction history
-![transaction history.png](https://images.zenhubusercontent.com/642d1d4c0d7076005c87250b/7928bdbe-a636-4963-961c-677a051cbc3a)
